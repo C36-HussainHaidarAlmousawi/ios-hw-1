@@ -85,7 +85,9 @@ var isKuwaiti3 = true
  
  */
 var age_equal = (age1 == age2) || (age1 == age3) || (age2 == age3)
-var area_wqual = (area1 == area2) || (area1 == area3) || (area2 == area3)
+var age_not_equal = (age1 != age2) || (age1 != age3) || (age2 != age3)
+var area_equal = (area1 == area2) || (area1 == area3) || (area2 == area3)
+var area_not_equal = (area1 != area2) || (area1 != area3) || (area2 != area3)
 var age1_bigger_18 = age1 > 18
 var age2_bigger_18 = age2 > 18
 var age3_bigger_18 = age3 > 18
@@ -101,3 +103,11 @@ var age3_equal_17 = age3 == 17
 var age1_not_equal_17 = age1 != 17
 var age2_not_equal_17 = age2 != 17
 var age3_not_equal_17 = age3 != 17
+
+//بونص
+var I = " * * \n*   *\n * *\n\n  *\n  *\n  *\n  *\n  *\n  *\n  *\n  *\n  *\n  *"
+
+var O = "  ******\n *      *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n *      *\n  ******"
+
+var S = "   * *\n *      *\n*        *\n*\n*\n *\n   *\n     *\n       *\n        *\n         *\n         *\n*        *\n *      *\n  *    *\n    * *"
+
