@@ -1,3 +1,4 @@
+
 import UIKit
 
 
@@ -57,3 +58,49 @@ var numbers = [1,2,3,4,5,6,7,8,9,10]
  
  */
    
+
+
+//  my hw
+//1st
+
+var myFavoriteFood = ["pasta" , "burger" , "rice"]
+myFavoriteFood.append("pizza")
+print(myFavoriteFood[0])
+
+
+for food in myFavoriteFood {
+    print(food)
+}
+
+if myFavoriteFood[3] == "pizza" {
+        print("yumm pizza")
+}
+
+
+
+//2nd
+
+var evenNumber = [Int]()
+
+for number in numbers {
+    if number % 2 == 0 {
+        evenNumber.append(number)}
+}
+
+  print(evenNumber)
+    
+
+//3rd
+
+for I in 1...5 {
+    for A in 1...10 {
+        print(A, "x", I, "=", I*A)          }
+}
+
+//بونص
+for a in 0...139 {
+    if a % 20 == 0 {
+        print("")
+    }
+    print("* ", terminator: "")
+}

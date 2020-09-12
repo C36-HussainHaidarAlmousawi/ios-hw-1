@@ -105,9 +105,20 @@ var age2_not_equal_17 = age2 != 17
 var age3_not_equal_17 = age3 != 17
 
 //بونص
-var I = " * * \n*   *\n * *\n\n  *\n  *\n  *\n  *\n  *\n  *\n  *\n  *\n  *\n  *"
-
-var O = "  ******\n *      *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n*        *\n *      *\n  ******"
-
-var S = "   * *\n *      *\n*        *\n*\n*\n *\n   *\n     *\n       *\n        *\n         *\n         *\n*        *\n *      *\n  *    *\n    * *"
-
+print(" * *")
+print("*   *")
+print(" * *            ******                    *  *")
+print("              *         *               *     *")
+print("  *          *           *              *      *")
+print("  *          *           *              *")
+print("  *          *           *               *")
+print("  *          *           *                *")
+print("  *          *           *                 *")
+print("  *          *           *                  *")
+print("  *          *           *                   *")
+print("  *          *           *                    *")
+print("  *          *           *                    *")
+print("  *          *           *               *    *   ")
+print("  *          *           *                *  * ")
+print("  *            *        *                  **")
+print("  *              ******")
